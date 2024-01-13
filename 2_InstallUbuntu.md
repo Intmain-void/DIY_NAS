@@ -12,17 +12,22 @@
 
 그래서 윈도우에서 rufus를 이용하여 설치 디스크를 만들었다.
 
-하지만 설치가 되지 않아서 아래 링크를 활용하여 두 번째 방법을 선택하였다.
+하지만 설치가 되지 않았다. 아래 링크를 확인해보니 Ubuntu 대신 Ubuntu (safe graphics)를 사용해야 정상적으로 설치가 가능하였다.
 
-[https://www.reddit.com/r/Ubuntu/comments/1507xf0/black_screen_when_installing_ubuntu_2204/](https://www.reddit.com/r/Ubuntu/comments/1507xf0/black_screen_when_installing_ubuntu_2204/)
-
-사진1
-
-install ubuntu 클릭
+[레딧 링크](https://www.reddit.com/r/Ubuntu/comments/1507xf0/black_screen_when_installing_ubuntu_2204/)
 
 # 기본적인 프로그램 설치
 
-vim 등
+
+```bash
+sudo apt update
+```
+
+```bash
+sudo apt upgrade
+```
+
+이외에 `vim` 등 기본 프로그램 등을 설치하였다.
 
 # 하드디스크 마운트
 
@@ -35,6 +40,8 @@ vim 등
 ```bash
 uname -r
 ```
+
+GPT 버전이 3.1 이상이면 사용가능하다.
 
 - GPT 파티션 사용가능여부 확인
 
