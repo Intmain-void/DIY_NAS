@@ -37,7 +37,7 @@
     
     결과물:
     
-    [Untitled](3%20%E1%84%85%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%83%E1%85%B3%20%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%BC%202fbc7b373247418486bf17b9b95b2320/Untitled.png)
+    [Untitled](src/3_.png)
     
 - `mdadm` 설치
     
