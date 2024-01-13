@@ -37,7 +37,7 @@
     
     결과물:
     
-    [Untitled](src/3_.png)
+    <img src="src/3_.png">
     
 - `mdadm` 설치
     
